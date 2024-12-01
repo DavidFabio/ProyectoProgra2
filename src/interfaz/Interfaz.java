@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 
-public class Principal{
-    public static void main(String [] args){
+public class Interfaz {
+    public void interfaz(){
     System.out.println("");
     System.out.println("Bienvenido al portal del trabajador\n");
     System.out.println("Introduce tu nombre, tus apellidos y tu cargo\n");
@@ -159,12 +158,5 @@ public class Principal{
                         }
                     }while((bucle == true));
             }
-            
-=======
-public class Principal{
-    public static void main(String [] args){
-        Interfaz interfaz = new Interfaz();
-        interfaz.interfaz();
->>>>>>> b26d421d7a3f668a0f53f83d2d02bb40a9c25845
         }
 }
